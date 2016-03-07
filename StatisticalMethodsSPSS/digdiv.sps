@@ -1,4 +1,4 @@
-cd "/home/scix/Dokumente/TUDarmstadt/Soziologie/Bachelor/SPSS/Albuss2010".
+cd "/your/home/dir/".
 get file "ZA3765.sav". 
 save 
 
