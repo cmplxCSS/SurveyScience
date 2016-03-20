@@ -1,9 +1,9 @@
-cd "/home/scix/Dokumente/TUDarmstadt/Soziologie/Bachelor/SPSS/Albuss2010".
+cd "/your/home/dir/".
 get file "ZA3765.sav". 
 save 
 
 recode v60 (1,2=1)(3,6=2)(4,5=3) into v60_rec.
-val lab v60_rec 1 "without graduation + Hauptschulabschluss" 2 "Mittlerereife and others" 3 "at least Fachhochsulreife".
+val lab v60_rec 1 "without graduation + Hauptschulabschluss" 2 "Mittlerereife and others" 3 "at least Fachhochschulreife".
 var lab v60_rec "Graduation".
 
 FREQUENCIES v236 v237 v238 v239 v240 v241 v242.
